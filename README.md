@@ -1,3 +1,7 @@
+# Intro
+
+This project is a fork of [react-azure-mp](https://github.com/SidKH/react-azure-mp). The forked project seems to be out of maintenance. This project intends to build on its origin repository and extend with new features.
+
 # React Azure media player
 
 [![NPM](https://img.shields.io/npm/v/react-azure-mp.svg)](https://www.npmjs.com/package/react-azure-mp) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -35,4 +39,4 @@ Supports server-side rendering
 
 ## License
 
-MIT © [SidKH](https://github.com/SidKH)
+Released under same license as origin project (MIT)
