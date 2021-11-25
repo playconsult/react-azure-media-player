@@ -30,8 +30,8 @@ class AzureMP extends Component {
     }
   }
   setVideo() {
-    const { src } = this.props
-    this.player.src(src)
+    const { src, captions } = this.props
+    this.player.src(src, captions)
   }
   createPlayer() {
     const { options, onInstanceCreated } = this.props
