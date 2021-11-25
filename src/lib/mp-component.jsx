@@ -25,13 +25,14 @@ class AzureMP extends Component {
     })
   }
   componentDidUpdate(prevProps) {
-    if (prevProps.src !== this.props.src) {
+    if (prevProps.src !== this.props.src ||
+      prevProps.tracks !== this.props.tracks) {
       this.initialization.then(() => this.setVideo())
     }
   }
   setVideo() {
-    const { src, captions } = this.props
-    this.player.src(src, captions)
+    const { src, tracks } = this.props
+    this.player.src(src, tracks)
   }
   createPlayer() {
     const { options, onInstanceCreated } = this.props
