@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import { AzureMP } from './'
 
-describe('ExampleComponent', () => {
+describe('AzureMP', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(AzureMP).toBeTruthy()
   })
 })
